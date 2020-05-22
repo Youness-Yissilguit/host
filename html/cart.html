@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta htttp-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Your Shopping Cart</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="icon" href="images/icologo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neucha&amp;display=swap">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="upperbar"><span>call us 082126546554</span><span>Take advantage of a 12% discount</span></div>
+    <!--start the navbar-->
+    <!--searsh input-->
+    <div class="searsh-input">
+      <input type="text" placeholder="searsh">
+      <input type="submit" value="searsh">
+    </div>
+    <nav>
+      <div class="container-fluid nav-child">
+        <div class="small-cart"></div>
+        <div class="logo"><a href="../homepage.html"><img class="img-fluid" src="images/shop.png" alt="logo"></a></div>
+        <div class="nav-links">
+          <ul class="list-unstyled">
+            <li><a href="../homepage.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="../homepage.html#about">About Us</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="cart-icons"><i class="fas fa-search searsh d-none d-sm-inline-block" id="searsh-icon" data-toggle="tooltip" data-placement="bottom" title="Searsh"></i><a class="d-none d-sm-inline-block" href="Account.html"><i class="far fa-user-circle profil" data-toggle="tooltip" data-placement="bottom" title="Your Account"></i></a><a class="cart position-relative" href="cart.html"><i class="fas fa-shopping-bag" data-toggle="tooltip" data-placement="bottom" title="Go To Cart"></i><span id="has-item"> </span></a>
+          <div class="humbergur d-inline-block d-md-none"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </nav>
+    <div class="fixed-nav" id="fixed-navbar">
+      <div class="the-navbar"><span class="close">&times;</span>
+        <div class="searsh mb-3 mt-3">
+          <input type="text" placeholder="searsh">
+          <button><i class="fas fa-search"></i></button>
+        </div>
+        <ul class="list-unstyled mb-3">
+          <li><a class="active" href="../homepage.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="../homepage.html#about">About Us</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contact.html">Contact </a></li>
+          <li class="d-block d-sm-none"><a href="Account.html">Account</a></li>
+        </ul>
+        <hr><span class="d-block mt-5"><i class="fas fa-mobile-alt mr-1"></i>call us 082126546554</span><span class="d-block"><i class="far fa-envelope mr-1"></i>goshop@gmail.com</span><span>Take advantage of a 12% discount</span>
+        <div class="icons mt-3"><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i><i class="fab fa-pinterest-p"></i><i class="fab fa-linkedin"></i><i class="fab fa-youtube"></i></div>
+      </div>
+    </div>
+    <div class="sub-nav" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><i class="fas fa-home"></i> <a href="homepage.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Your Shopping Cart</li>
+      </ol>
+    </div>
+    <!--start the shooping Cart-->
+    <div class="container text-center">
+      <h1 class="cart-title main-heading mt-3">Your Shopping Cart</h1>
+    </div>
+    <div class="table-container mt-5 ml-3 mr-3 text-center">
+      <table class="table table-bordered table-hover">
+        <thead>
+          <th>Thumbnail</th>
+          <th>Products</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Number</th>
+          <th>Remove</th>
+        </thead>
+        <tbody id="cart-Items">
+          <tr>
+            <td class="p-image">
+              <div><img class="img-fluid" src="images/product1.png" alt="product picture"></div>
+            </td>
+            <td class="name">Handmade Leather Bag</td>
+            <td class="price">$119.00</td>
+            <td class="counter">3</td>
+            <td class="total">$119.00</td>
+            <td>
+              <button class="add-one">+</button>
+              <button class="remove-one">-</button>
+            </td>
+            <td><i class="fas fa-trash-alt remove-item" data-toggle="tooltip" data-placement="top" title="Remove"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--cart details-->
+    <div class="cart-details mt-5 text-center container">
+      <div class="row">
+        <div class="col-6">
+          <h4>Total Price:</h4>
+        </div>
+        <div class="col-6">
+          <h3 class="total-price">$142.00</h3>
+        </div>
+      </div>
+      <div class="row b">
+        <div class="col-6 mt-5"><a href="shop.html"><i class="fas fa-shopping-basket"></i> Shop</a></div>
+        <div class="col-6 mt-5"><a href="#"><i class="fas fa-share"></i> Checkout</a></div>
+      </div>
+    </div>
+    <!--footer-->
+    <footer class="mt-5">
+      <div class="subscribe text-center">
+        <p>Subscribe To Get The Latest News</p>
+        <form>
+          <input type="text" placeholder="Input Your E-mail">
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+      <div class="container footer">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo-container"><img class="img-fluid" src="images/shoplogo.png" alt="our brand"></div>
+            <p class="p"><b>GoShop</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaconsectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+          <div class="col-md-4 help-links mt-5">
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li>About Us</li>
+                  <li>Licence</li>
+                  <li>Policy</li>
+                  <li>Term of Use</li>
+                  <li>Help Center</li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li>Best Sales</li>
+                  <li>Contact us</li>
+                  <li>Secure Payment</li>
+                  <li>New Products</li>
+                  <li>Blogs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 other mt-5"><span><i class="fas fa-mobile-alt mr-1"></i>call us: 082126546554</span><span><i class="far fa-envelope mr-1"></i>Email us: example@gmail.com</span><span><i class="fas fa-map-marked"></i>Visit Us: No 40 Baria Sreet 133/2 NewYork City</span>
+            <div class="social-media mt-3"><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-linkedin-in"></i><i class="fas fa-rss"></i><i class="fab fa-instagram"></i></div>
+            <div class="payment mt-3 text-center"><i class="fab fa-cc-visa"></i><i class="fab fa-cc-paypal"></i><i class="fab fa-cc-mastercard"></i><i class="fab fa-cc-amazon-pay"></i><i class="fab fa-cc-discover"></i></div>
+          </div>
+        </div>
+      </div>
+      <p class="copy text-center pt-3 pb-3 mt-3">copyright&copy;2020 | Template made by youness</p>
+    </footer>
+    <!--scripts-->
+    <script src="../js/jQuery%20v3-4-1.js"></script>
+    <script src="../js/popovers.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/main-min.js"></script>
+  </body>
+</html>
